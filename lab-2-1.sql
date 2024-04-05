@@ -17,4 +17,4 @@
 
 SELECT year, name, wins FROM teams WHERE wins > 100; 
 
-SELECT COUNT(*)year, name, wins FROM teams WHERE wins > 100; 
+SELECT COUNT(*) FROM teams WHERE wins > 100; 
